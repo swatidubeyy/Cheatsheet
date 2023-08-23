@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 50px;
+    align-items: center;
+}
+
+.content {
+    width: 50vw;
+    padding: 32px 0;
+    margin: auto;
+}
+
+.logo {
+    padding: 0 10px;
+}
+
+.toolbar-item button{
+    cursor: pointer !important;
+    border-radius: 10px !important;
+    color: white !important;
+    border: 2px solid white !important;
+}
